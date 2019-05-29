@@ -1,0 +1,27 @@
+.share-container {
+    padding: 10px 0;
+
+    .no-margin {
+        margin: 0 !important;
+    }
+
+    .ui {
+        &.form {
+            .fields {
+               display: -webkit-box !important;
+            }
+        }
+    }
+
+    div[role="list"] {
+        width: 500px;
+    }
+
+    .ui.button {
+        margin: 0 .25em 0 .25em;
+    }
+
+    .ui.form .warning.message {
+        display: block;
+    }
+}
